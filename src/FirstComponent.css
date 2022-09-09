@@ -1,0 +1,37 @@
+.container {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background: #61dafb;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.box1 {
+    /*height: 2x;*/
+    /*height: 10px;*/
+    flex-grow: 1;
+    background: red;
+}
+
+.box2 {
+    /*height: 200px;*/
+    /*height: 10px;*/
+    background: blue;
+    /*flex-grow: 2;*/
+    flex-shrink: 1;
+}
+
+.box3 {
+    /*height: 200px;*/
+    /*height: 10px;*/
+    background: yellow;
+    flex-grow: 1;
+}
+
+.box4 {
+    /*height: 200px;*/
+    /*height: 10px;*/
+    background: green;
+    flex-grow: 1;
+}
